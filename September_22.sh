@@ -90,9 +90,5 @@ chmod g-x file  # revoke execute permission from group
 chmod a=rx file # make everyone's permission rx
 chmod u+rwx file # give owner full control
 
-
-
-
-
-
+chrmod +x myscript.bash # gives execution permission for all users
 
