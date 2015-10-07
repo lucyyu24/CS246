@@ -114,7 +114,7 @@ int main() {
 int main() {
 	int i; 
 	while (cin >> i) {
-		count << i << endl; 
+		cout << i << endl; 
 	}
 }
 
@@ -181,11 +181,11 @@ setprecision()
 int i = 95; 
 float price = 2.50;
 
-count << i << endl;		// 95
-count << price << endl; // 2.5
+cout << i << endl;		// 95
+cout << price << endl; // 2.5
 
-count << hex << i << endl; // 95 in hex
-count << showpoint << setprecision(3) << price << endl; // 2.50; setprecision counts dots! (2+1)
+cout << hex << i << endl; // 95 in hex
+cout << showpoint << setprecision(3) << price << endl; // 2.50; setprecision counts dots! (2+1)
 
 
 
