@@ -96,7 +96,7 @@ s1 == s2			// equality
 s1 != s2			// inequality
 s1 <= s2			// comparison (lexicographic order)
 s1.length()			// length
-s1[0], ..., s1[i]	// extract individual characterss
+s1[0], ..., s1[i]	// extract individual characters
 s3 = s1 + s2;		// concatenation, can also use += 
 
 // Default function paramters --------------------------------------

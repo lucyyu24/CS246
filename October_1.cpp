@@ -30,7 +30,7 @@ g++ program.cc -o program // compiling C++ programs
 
 // C++ provides I/O stream objects
 cout 	// for printing to stdout
-cin 	// for reading frmo stdin
+cin 	// for reading from stdin
 cerr 	// for printing to stderr
 
 // I/O operator
