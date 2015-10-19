@@ -127,6 +127,8 @@ cin.ignore() // ignore the current input char
 			 // ignore(number of chars to ignore, delimiter)
 			 // default values: (1, EOF)
 
+// NOTE: always clear before ignore! 
+
 // Example 6 -------------------------------------------
 
 // read all integers and echo on stdout until eof, skip non-integer input

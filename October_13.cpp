@@ -9,7 +9,7 @@ struct Node {
 
 Node *np = new Node;
 ..
-delete np; 
+delete np;
 
 // use new/delete in C++
 

@@ -76,7 +76,7 @@ int main() {
 	int x = 5;
 	inc_value(x);
 	inc_pointer(&x);
-	inc_value(x);
+	inc_ref(x);
 
 }
 
@@ -90,9 +90,9 @@ int main() {
 // references are like constant pointers with automatic dereferencing
 
 int y = 10; 
-int &z = y; // z is a ref to y
-z = 12;		// not *z = 12
-int *p = &z; // p points to y
+int &z = y; // z is a ref to y 
+z = 12;		// not *z = 12 
+int *p = &z; // p points to y 
 
 // in all cases, z behaves exactly like y 
 
