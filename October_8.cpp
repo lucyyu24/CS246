@@ -130,8 +130,8 @@ int f(const Big &b) {}
 int f(int &n) {}
 int g(const int &n) {}
 
-f(5); // error, can't change value of 5
-g(5); // OK
+g(5); // error, can't change value of 5
+f(5); // OK
 
 
 
