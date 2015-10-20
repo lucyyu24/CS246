@@ -154,3 +154,5 @@ int x[MAX]
 	int winmain () {
 
 	}
+
+#endif
